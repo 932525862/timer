@@ -73,7 +73,6 @@ const Header = () => {
               onChange={changeLanguage}
             >
               <Option value="uz">🇺🇿 Uzbek</Option>
-              <Option value="en">🇬🇧 English</Option>
               <Option value="ru">🇷🇺 Russian</Option>
             </Select>
               </li>
@@ -87,7 +86,6 @@ const Header = () => {
               onChange={changeLanguage}
             >
               <Option value="uz">🇺🇿 Uzbek</Option>
-              <Option value="en">🇬🇧 English</Option>
               <Option value="ru">🇷🇺 Russian</Option>
             </Select>
             <div
