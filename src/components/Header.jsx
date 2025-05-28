@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { useTranslation } from "react-i18next";
+import { Select } from "antd";
+
+const { Option } = Select;
+
 const Header = () => {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
@@ -9,15 +13,17 @@ const Header = () => {
   const closeBurger = () => {
     setOpen(false);
   };
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (value) => {
+    i18n.changeLanguage(value);
+  };
   const openBurger = () => {
     setOpen(!open);
   };
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (
-        burgerRef.current &&
-        !burgerRef.current.contains(event.target)
-      ) {
+      if (burgerRef.current && !burgerRef.current.contains(event.target)) {
         setOpen(false);
       }
     };
@@ -39,8 +45,9 @@ const Header = () => {
           <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
             <a href="#home">elesson</a>
           </div>
+          <div className="flex items-center gap-4">
           <nav>
-            <ul className="hidden md:flex gap-7 items-center text-[22px] font-medium text-[#000]">
+            <ul className="hidden lg:flex gap-7 items-center text-[22px] font-medium text-[#000]">
               <li className="hover:text-[#386d63]">
                 <a href="#home">{t("navbar.home")}</a>
               </li>
@@ -59,18 +66,50 @@ const Header = () => {
               <li className="hover:text-[#386d63]">
                 <a href="#contact">{t("navbar.contact")}</a>
               </li>
+              <li>
+              <Select
+              defaultValue={i18n.language}
+              style={{ width: 120 }}
+              onChange={changeLanguage}
+            >
+              <Option value="uz">🇺🇿 Uzbek</Option>
+              <Option value="ru">🇷🇺 Russian</Option>
+            </Select>
+              </li>
             </ul>
           </nav>
-          <div
-            className="cursor-pointer text-[25px] block md:hidden text-[#386d63]"
+          </div>
+          <div className="flex lg:hidden items-center gap-4">
+          <Select
+              defaultValue={i18n.language}
+              style={{ width: 120 }}
+              onChange={changeLanguage}
+            >
+              <Option value="uz">🇺🇿 Uzbek</Option>
+              <Option value="ru">🇷🇺 Russian</Option>
+            </Select>
+            <div
+            className="cursor-pointer text-[25px]  text-[#386d63]"
             onClick={openBurger}
           >
             <RiMenuFill />
           </div>
+          </div>
+          
         </div>
       </div>
-      <nav ref={burgerRef} className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${!open ? "-left-[100%]" : "left-0"}  duration-300`}>
-        <div onClick={closeBurger} className="text-[25px] self-end text-[#386d63] mb-3"><RxCross2 /></div>
+      <nav
+        ref={burgerRef}
+        className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${
+          !open ? "-left-[100%]" : "left-0"
+        }  duration-300`}
+      >
+        <div
+          onClick={closeBurger}
+          className="text-[25px] self-end text-[#386d63] mb-3"
+        >
+          <RxCross2 />
+        </div>
         <ul className="flex flex-col gap-7 items-center text-[22px] font-medium text-[#386d63]">
           <li onClick={closeBurger}>
             <a href="#home">{t("navbar.home")}</a>
