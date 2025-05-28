@@ -17,8 +17,8 @@ const Benefits = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-[30px] sm:mt-[50px]">
-          <div className="flex items-center bg-[#fff] rounded-[15px]">
-            <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
+          <div className="grid grid-cols-2 items-center bg-[#fff] rounded-[15px]">
+            <div className="h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
               <img
                 src={afza1}
                 alt="afza gif"
@@ -34,8 +34,8 @@ const Benefits = () => {
           </div>
 
           {/* Boshqa 3 ta kartalar hali "rasm" yozuvi bilan qolgan */}
-          <div className="flex items-center bg-[#fff] rounded-[15px]">
-            <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
+          <div className="grid grid-cols-2 items-center bg-[#fff] rounded-[15px]">
+            <div className="h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
               <img
                 src={afza2}
                 alt="afza gif"
@@ -49,8 +49,8 @@ const Benefits = () => {
               <p className="text-gray-500 text-[13px] sm:text-[16px]">{t("afza.afza22")}</p>
             </div>
           </div>
-          <div className="flex items-center bg-[#fff] rounded-[15px]">
-            <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
+          <div className="grid grid-cols-2 items-center bg-[#fff] rounded-[15px]">
+            <div className="h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
               <img
                 src={afza3}
                 alt="afza gif"
@@ -64,8 +64,8 @@ const Benefits = () => {
               <p className="text-gray-500 text-[13px] sm:text-[16px]">{t("afza.afza33")}</p>
             </div>
           </div>
-          <div className="flex items-center bg-[#fff] rounded-[15px]">
-            <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
+          <div className="grid grid-cols-2 items-center bg-[#fff] rounded-[15px]">
+            <div className="h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">
               <img
                 src={afza4}
                 alt="afza gif"
