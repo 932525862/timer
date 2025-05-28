@@ -65,7 +65,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <nav ref={burgerRef} className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-[400px] p-5 h-screen top-0 ${!open ? "-left-[100%]" : "left-0"}  duration-300`}>
+      <nav ref={burgerRef} className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${!open ? "-left-[100%]" : "left-0"}  duration-300`}>
         <div onClick={closeBurger} className="text-[25px] self-end text-[#356F65] mb-3"><RxCross2 /></div>
         <ul className="flex flex-col gap-7 items-center text-[22px] font-medium text-[#356F65]">
           <li onClick={closeBurger}>
