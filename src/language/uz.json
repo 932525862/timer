@@ -1,0 +1,21 @@
+{
+   "navbar": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "news": "Afzalliklarimiz",
+    "reception": "Tariflar",
+    "tyutorlar": "Tyutorlar"
+  } ,
+  "about": {
+    "title": "Salom! Men elesson!",
+    "description": "Shunchaki onlayn kurs emas, men sening ishonchli hamkoringman. Dunyo tillarini tez, oson va qulay o‘rganishni zamonaviy metodlar hamda smart yechimlar bilan taklif qilaman.",
+    "viewOrders": "Kutslar ko‘rish",
+    "mijoz": "Mijozlar fikri",
+    "mijozDescription": "elesson kursi malakali tyutorlar va ekspertlar yordamida tilni tez, oson va qulay o‘rganish imkonini beradi. Bu kurs ishonchli hamkorlik, zamonaviy metodlar va samarali natijalarni ta’minlaydi.",
+    "rating": "Reyting",
+    "mijozlar": "Mijozlar",
+    "manun": "Mamnun mijozlar"
+
+  }
+}
