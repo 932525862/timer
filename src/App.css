@@ -3,3 +3,15 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+@font-face {
+  font-family: 'nuqun';
+  src: url('./assets/fonts/NUQUN-REGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nuqun{
+  font-family: 'nuqun', sans-serif;
+  letter-spacing: 2px;
+}

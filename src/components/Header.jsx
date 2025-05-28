@@ -6,9 +6,9 @@ const Header = () => {
     <header className="bg-gray-100 py-5">
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="cursor-pointer text-[30px] font-semibold"><a href="#home">Logo</a></div>
+          <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#356F65]"><a href="#home">elesson</a></div>
             <nav>
-              <ul className="flex gap-7 items-center text-[22px] font-medium">
+              <ul className="flex gap-7 items-center text-[22px] font-medium text-[#356F65]">
                 <li>
                   <a href="#home">Home</a>
                 </li>
@@ -26,7 +26,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <div className="cursor-pointer text-[25px] hidden">
+            <div className="cursor-pointer text-[25px] hidden text-[#356F65]">
               <RiMenuFill />
             </div>
         </div>
