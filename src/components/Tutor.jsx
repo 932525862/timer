@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination, History } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 const Tutor = () => {
   return (
@@ -30,7 +30,7 @@ const Tutor = () => {
               slidesPerView={3}
               navigation={true}
               pagination={true}
-              modules={[Navigation, Pagination, History]}
+              modules={[Navigation, Pagination]}
               className="mySwiper"
               breakpoints={{
                 0: {
