@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import OurBenefits from './components/OurBenefits'
+import Tutor from './components/Tutor'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <Benefits/>
       <OurBenefits/>
+      <Tutor/>
       <Footer/>
     </>
   )
