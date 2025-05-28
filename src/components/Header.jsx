@@ -47,7 +47,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-4">
           <nav>
-            <ul className="hidden md:flex gap-7 items-center text-[22px] font-medium text-[#000]">
+            <ul className="hidden lg:flex gap-7 items-center text-[22px] font-medium text-[#000]">
               <li className="hover:text-[#386d63]">
                 <a href="#home">{t("navbar.home")}</a>
               </li>
@@ -80,7 +80,7 @@ const Header = () => {
             </ul>
           </nav>
           </div>
-          <div className="flex md:hidden items-center gap-4">
+          <div className="flex lg:hidden items-center gap-4">
           <Select
               defaultValue={i18n.language}
               style={{ width: 120 }}
