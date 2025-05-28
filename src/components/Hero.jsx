@@ -6,15 +6,15 @@ import { FaUser } from "react-icons/fa";
 import heroImg from "../assets/hero1.png";
 const Hero = () => {
   return (
-    <section>
-      <div className="container">
-        <div className="flex justify-between">
+    <section className="">
+      <div className="container relative">
+        <div className="mb-[50px]">
           <div>
             <div className="mt-[40px]">
-              <h1 className="text-[65px] font-bold max-w-[500px]">
+              <h1 className="text-[45px] sm:text-[65px] font-bold max-w-[400px] sm:max-w-[500px]">
                 Unlock your potential online
               </h1>
-              <p className="text-gray-500 text-[20px] max-w-[600px] mt-[15px]">
+              <p className="text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
                 Our online courses are designed to equip you with the skills and
                 knowledge you need to succeed in today's competitive world
               </p>
@@ -23,8 +23,8 @@ const Hero = () => {
               </button>
             </div>
             <div className="mt-[50px] flex gap-7">
-              <div>
-                <div>
+              <div className="hidden sm:block">
+                <div >
                   <h4 className="text-[30px] font-[600]">Testimonials</h4>
                   <div className="flex text-amber-400 gap-1 text-[28px] items-center">
                     <RiStarSFill />
@@ -182,7 +182,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="self-end">
+          <div className="absolute -bottom-[50px] right-0 -z-10">
             <img src={heroImg} alt="girl photo" />
           </div>
         </div>

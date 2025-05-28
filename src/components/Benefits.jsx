@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <section className="bg-gray-100 py-[30px] sm:py-[50px] mt-[50px]">
+    <section className="bg-gray-100 py-[30px] sm:py-[50px]">
       <div className="container">
         <div className="w-full text-center ">
           <h4 className="text-[28px] sm:text-[35px] font-[700]">Our popular courses</h4>
