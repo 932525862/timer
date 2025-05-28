@@ -12,31 +12,31 @@ const Benefits = () => {
             </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-[30px] sm:mt-[50px]">
-            <div className="flex items-center gap-3 bg-[#fff] rounded-[15px]">
+            <div className="flex items-center bg-[#fff] rounded-[15px]">
                 <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">rasm</div>
-                <div className=" items-center p-[20px] h-full flex flex-col justify-center">
-                    <h5 className="text-[18px] sm:text-[25px] font-[700]">Financial money literacy lorem lorem</h5>
+                <div className=" items-center p-[10px] sm:p-[20px] h-full flex flex-col justify-center">
+                    <h5 className="text-[18px] sm:text-[25px] font-[700] text-left w-full">Financial money literacy lorem lorem</h5>
                     <p className="text-gray-500 text-[13px] sm:text-[16px]">Veniam enim fugiat nisi veniam et nisi mollit adipicing temor cupidatat</p>
                 </div>
             </div>
-            <div className="flex items-center gap-3 bg-[#fff] rounded-[15px]">
+            <div className="flex items-center bg-[#fff] rounded-[15px]">
                 <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">rasm</div>
-                <div className=" items-center p-[20px] h-full flex flex-col justify-center">
-                    <h5 className="text-[18px] sm:text-[25px] font-[700]">Financial money literacy lorem lorem</h5>
+                <div className=" items-center p-[10px] sm:p-[20px] h-full flex flex-col justify-center">
+                    <h5 className="text-[18px] sm:text-[25px] font-[700] text-left w-full">Financial money literacy lorem lorem</h5>
                     <p className="text-gray-500 text-[13px] sm:text-[16px]">Veniam enim fugiat nisi veniam et nisi mollit adipicing temor cupidatat</p>
                 </div>
             </div>
-            <div className="flex items-center gap-3 bg-[#fff] rounded-[15px]">
+            <div className="flex items-center bg-[#fff] rounded-[15px]">
                 <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">rasm</div>
-                <div className=" items-center p-[20px] h-full flex flex-col justify-center">
-                    <h5 className="text-[18px] sm:text-[25px] font-[700]">Financial money literacy lorem lorem</h5>
+                <div className=" items-center p-[10px] sm:p-[20px] h-full flex flex-col justify-center">
+                    <h5 className="text-[18px] sm:text-[25px] font-[700] text-left w-full">Financial money literacy lorem lorem</h5>
                     <p className="text-gray-500 text-[13px] sm:text-[16px]">Veniam enim fugiat nisi veniam et nisi mollit adipicing temor cupidatat</p>
                 </div>
             </div>
-            <div className="flex items-center gap-3 bg-[#fff] rounded-[15px]">
+            <div className="flex items-center bg-[#fff] rounded-[15px]">
                 <div className="w-[400px] h-[200px] sm:h-[300px] bg-gray-800 rounded-l-[15px] flex justify-center items-center text-[#fff]">rasm</div>
-                <div className=" items-center p-[20px] h-full flex flex-col justify-center">
-                    <h5 className="text-[18px] sm:text-[25px] font-[700]">Financial money literacy lorem lorem</h5>
+                <div className=" items-center p-[10px] sm:p-[20px] h-full flex flex-col justify-center">
+                    <h5 className="text-[18px] sm:text-[25px] font-[700] text-left w-full">Financial money literacy lorem lorem</h5>
                     <p className="text-gray-500 text-[13px] sm:text-[16px]">Veniam enim fugiat nisi veniam et nisi mollit adipicing temor cupidatat</p>
                 </div>
             </div>

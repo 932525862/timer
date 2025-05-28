@@ -1,12 +1,19 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, History } from "swiper/modules";
 
 const Tutor = () => {
   return (
-    <section className="bg-gray-100 py-[60px]">
+    <section className="bg-gray-100 py-[30px] sm:py-[60px]">
       <div className="container">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-[30px]">
-          <div>
+        <div className="grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-4 gap-[30px]">
+          <div className="col-span-2 lg:col-span-1">
             <h5 className="text-[28px] sm:text-[40px] font-[700]">
               Out tutors
             </h5>
@@ -17,98 +24,151 @@ const Tutor = () => {
               <a href="#">Become A Tutor</a>
             </button>
           </div>
-         
-          <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
-            <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
-            <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">Lauren Martinez</h6>
-            <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">Python Tutor</p>
-            <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">Aliquip eismod in voluptate do quis ipsum dolor</p>
-            <div className="mt-[15px]">
-              <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaFacebook />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaTwitter />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaYoutube />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaLinkedin />
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div className="col-span-3">
+            <Swiper
+              spaceBetween={20}
+              slidesPerView={3}
+              navigation={true}
+              pagination={true}
+              modules={[Navigation, Pagination, History]}
+              className="mySwiper"
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                450: {
+                    slidesPerView: 2,
+                  },
+                640: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 2,
+                },
+                1280: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
+                  <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
+                  <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">
+                    Lauren Martinez
+                  </h6>
+                  <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">
+                    Python Tutor
+                  </p>
+                  <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">
+                    Aliquip eismod in voluptate do quis ipsum dolor
+                  </p>
+                  <div className="mt-[15px]">
+                    <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaFacebook />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaTwitter />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaYoutube />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaLinkedin />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
+                  <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
+                  <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">
+                    Lauren Martinez
+                  </h6>
+                  <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">
+                    Python Tutor
+                  </p>
+                  <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">
+                    Aliquip eismod in voluptate do quis ipsum dolor
+                  </p>
+                  <div className="mt-[15px]">
+                    <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaFacebook />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaTwitter />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaYoutube />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaLinkedin />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
+                  <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
+                  <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">
+                    Lauren Martinez
+                  </h6>
+                  <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">
+                    Python Tutor
+                  </p>
+                  <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">
+                    Aliquip eismod in voluptate do quis ipsum dolor
+                  </p>
+                  <div className="mt-[15px]">
+                    <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaFacebook />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaTwitter />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaYoutube />
+                        </a>
+                      </li>
+                      <li className="hover:text-[#2d5c54]">
+                        <a href="#">
+                          <FaLinkedin />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
-          <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
-            <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
-            <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">Lauren Martinez</h6>
-            <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">Python Tutor</p>
-            <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">Aliquip eismod in voluptate do quis ipsum dolor</p>
-            <div className="mt-[15px]">
-              <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaFacebook />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaTwitter />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaYoutube />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaLinkedin />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center">
-            <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
-            <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">Lauren Martinez</h6>
-            <p className="mt-[10px] sm:mt-[15px] text-[#386d63] font-[600]">Python Tutor</p>
-            <p className="max-w-[250px] text-center text-gray-500 mt-[10px] sm:mt-[15px]">Aliquip eismod in voluptate do quis ipsum dolor</p>
-            <div className="mt-[15px]">
-              <ul className="flex gap-2 sm:gap-4 text-[20px] sm:text-[25px] text-[#386d63]">
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaFacebook />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaTwitter />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaYoutube />
-                  </a>
-                </li>
-                <li className="hover:text-[#2d5c54]">
-                  <a href="#">
-                    <FaLinkedin />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          
         </div>
       </div>
     </section>
