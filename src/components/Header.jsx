@@ -1,22 +1,23 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { Select } from "antd";
 
 const { Option } = Select;
 
 const Header = () => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const burgerRef = useRef(null);
   const closeBurger = () => {
     setOpen(false);
   };
-  // const { i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
-  // const changeLanguage = (value) => {
-  //   i18n.changeLanguage(value);
-  // };
+  const changeLanguage = (value) => {
+    i18n.changeLanguage(value);
+  };
   const openBurger = () => {
     setOpen(!open);
   };
@@ -48,25 +49,28 @@ const Header = () => {
           <nav>
             <ul className="hidden md:flex gap-7 items-center text-[22px] font-medium text-[#000]">
               <li className="hover:text-[#386d63]">
-                <a href="#home">Home</a>
+                <a href="#home">{t("navbar.home")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#about">About Us</a>
+                <a href="#about">{t("navbar.about")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#blog">Blog</a>
+                <a href="#blog">{t("navbar.news")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#courses">Courses</a>
+                <a href="#reception">{t("navbar.reception")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#contact">Contact Us</a>
+                <a href="#tyutorlar">{t("navbar.tyutorlar")}</a>
+              </li>
+              <li className="hover:text-[#386d63]">
+                <a href="#contact">{t("navbar.contact")}</a>
               </li>
               <li>
               <Select
-              // defaultValue={i18n.language}
+              defaultValue={i18n.language}
               style={{ width: 120 }}
-              // onChange={changeLanguage}
+              onChange={changeLanguage}
             >
               <Option value="uz">🇺🇿 Uzbek</Option>
               <Option value="en">🇬🇧 English</Option>
@@ -78,9 +82,9 @@ const Header = () => {
           </div>
           <div className="flex md:hidden items-center gap-4">
           <Select
-              // defaultValue={i18n.language}
+              defaultValue={i18n.language}
               style={{ width: 120 }}
-              // onChange={changeLanguage}
+              onChange={changeLanguage}
             >
               <Option value="uz">🇺🇿 Uzbek</Option>
               <Option value="en">🇬🇧 English</Option>
@@ -110,20 +114,24 @@ const Header = () => {
         </div>
         <ul className="flex flex-col gap-7 items-center text-[22px] font-medium text-[#386d63]">
           <li onClick={closeBurger}>
-            <a href="#home">Home</a>
+            <a href="#home">{t("navbar.home")}</a>
           </li>
           <li onClick={closeBurger}>
-            <a href="#about">About Us</a>
+            <a href="#about">{t("navbar.about")}</a>
           </li>
           <li onClick={closeBurger}>
-            <a href="#blog">Blog</a>
+            <a href="#blog">{t("navbar.news")}</a>
           </li>
           <li onClick={closeBurger}>
-            <a href="#courses">Courses</a>
+          <a href="#reception">{t("navbar.reception")}</a>
           </li>
           <li onClick={closeBurger}>
-            <a href="#contact">Contact Us</a>
+          <a href="#tyutorlar">{t("navbar.tyutorlar")}</a>
           </li>
+          <li onClick={closeBurger}>
+          <a href="#contact">{t("navbar.contact")}</a>
+          </li>
+        
         </ul>
       </nav>
     </header>
