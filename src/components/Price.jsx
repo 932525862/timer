@@ -4,7 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const Price = () => {
   return (
-    <section className="bg-[#000000de] pt-[50px] h-[550px]  rounded-t-[50px] mb-[400px]">
+    <section className="bg-[#000000de] pt-[50px] h-[500px]  rounded-t-[50px] mb-[450px]">
       <div className="container">
         <div>
           <div className="w-full text-center ">
