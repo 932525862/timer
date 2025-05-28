@@ -17,5 +17,18 @@
     "mijozlar": "Mijozlar",
     "manun": "Mamnun mijozlar"
 
+  },
+  "afza":{
+    "title": "Elessonning afzalliklari",
+    "description": "Malakali tyutorlar, virtual kursdoshlar, chet ellik ekspertlar bilan zerikarli darslarni unutishing, yangi imkoniyatlar olamiga eshik ochishing — mening asosiy maqsadim!",
+    "afza1": "Vaqt va pulni tejash",
+    "afza11": "Kamroq yo‘l xarajati, oson to‘lov tizimi.",
+    "afza2": "O‘zingga qulay vaqtda va joyda o‘rganish!",
+    "afza22": "O‘zingga qulay vaqtda va joyda o‘rganish — moslashuvchan, samarali va istalgan vaqtda bilim olish imkoniyati.",
+    "afza3": "Darslarni qayta ko’rish imkoni!",
+    "afza33": "Darslarni qayta ko‘rish imkoni — o‘rganilgan mavzularni takrorlash, tushunishni chuqurlashtirish va bilimlarni mustahkamlash uchun qulay imkoniyat.",
+    "afza4": "Individual yondashuv",
+    "afza44": "Individual yondashuv — har bir o‘quvchining ehtiyojlari va qobiliyatlariga moslashtirilgan ta’lim, samarali va natijaga yo‘naltirilgan."
+    
   }
 }
