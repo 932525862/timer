@@ -10,7 +10,7 @@ import { Navigation, Pagination } from "swiper/modules";
 
 const Price = () => {
   return (
-    <section className="bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] mb-[450px]">
+    <section className="bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] mb-[400px] sm:mb-[450px]">
       <div className="container">
         <div>
           <div className="w-full text-center ">
