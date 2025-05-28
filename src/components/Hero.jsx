@@ -14,7 +14,7 @@ const Hero = () => {
               <h1 className="text-[45px] sm:text-[65px] font-bold max-w-[400px] sm:max-w-[500px]">
                 Unlock your potential online
               </h1>
-              <p className="text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
+              <p className="text-[#386d63] font-[600] lg:text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
                 Our online courses are designed to equip you with the skills and
                 knowledge you need to succeed in today's competitive world
               </p>
@@ -34,7 +34,7 @@ const Hero = () => {
                     <RiStarSFill />
                   </div>
                 </div>
-                <p className="text-[16px] max-w-[300px] mt-[20px] text-gray-500">
+                <p className="text-[16px] max-w-[300px] mt-[20px] text-[#386d63] font-[500] lg:text-gray-500">
                   Consectetur nulla consectetur sint sint fugiat fugiat deserunt
                   loborum ad non Lorem adipising offixia exercication nostrup.
                   Cillum duis irure Lorem aute enim elit adipisicing
@@ -48,7 +48,7 @@ const Hero = () => {
                     </div>
                     <div>
                       <div className="font-[800] text-[20px]">4.8</div>
-                      <div className=" text-gray-500">Ratings</div>
+                      <div className="text-[#386d63] font-[600] lg:text-gray-500">Ratings</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
@@ -57,7 +57,7 @@ const Hero = () => {
                     </div>
                     <div>
                       <div className="font-[800] text-[20px]">1.8M</div>
-                      <div className=" text-gray-500">Customers</div>
+                      <div className=" text-[#386d63] font-[600] lg:text-gray-500">Customers</div>
                     </div>
                   </div>
                 </div>
@@ -182,8 +182,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="absolute -bottom-[50px] right-0 -z-10">
-            <img src={heroImg} alt="girl photo" />
+          <div className="absolute -bottom-[50px] right-0 -z-10 ">
+            <img className="opacity-55 lg:opacity-100" src={heroImg} alt="girl photo" />
           </div>
         </div>
       </div>
