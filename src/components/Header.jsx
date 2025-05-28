@@ -35,30 +35,30 @@ const Header = () => {
     <header className="bg-gray-100 py-5 relative">
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#356F65]">
+          <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
             <a href="#home">elesson</a>
           </div>
           <nav>
-            <ul className="hidden md:flex gap-7 items-center text-[22px] font-medium text-[#356F65]">
-              <li>
+            <ul className="hidden md:flex gap-7 items-center text-[22px] font-medium text-[#000]">
+              <li className="hover:text-[#386d63]">
                 <a href="#home">Home</a>
               </li>
-              <li>
+              <li className="hover:text-[#386d63]">
                 <a href="#about">About Us</a>
               </li>
-              <li>
+              <li className="hover:text-[#386d63]">
                 <a href="#blog">Blog</a>
               </li>
-              <li>
+              <li className="hover:text-[#386d63]">
                 <a href="#courses">Courses</a>
               </li>
-              <li>
+              <li className="hover:text-[#386d63]">
                 <a href="#contact">Contact Us</a>
               </li>
             </ul>
           </nav>
           <div
-            className="cursor-pointer text-[25px] block md:hidden text-[#356F65]"
+            className="cursor-pointer text-[25px] block md:hidden text-[#386d63]"
             onClick={openBurger}
           >
             <RiMenuFill />
@@ -66,8 +66,8 @@ const Header = () => {
         </div>
       </div>
       <nav ref={burgerRef} className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${!open ? "-left-[100%]" : "left-0"}  duration-300`}>
-        <div onClick={closeBurger} className="text-[25px] self-end text-[#356F65] mb-3"><RxCross2 /></div>
-        <ul className="flex flex-col gap-7 items-center text-[22px] font-medium text-[#356F65]">
+        <div onClick={closeBurger} className="text-[25px] self-end text-[#386d63] mb-3"><RxCross2 /></div>
+        <ul className="flex flex-col gap-7 items-center text-[22px] font-medium text-[#386d63]">
           <li onClick={closeBurger}>
             <a href="#home">Home</a>
           </li>
