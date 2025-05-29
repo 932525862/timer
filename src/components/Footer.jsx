@@ -2,7 +2,9 @@ import { useTranslation } from "react-i18next";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+
   const { t } = useTranslation();
+  
   return (
     <header className="bg-[#fff] py-5 relative">
       <div className="container">
