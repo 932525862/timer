@@ -4,7 +4,7 @@ import { AntDesignOutlined, UserOutlined } from "@ant-design/icons";
 import { Avatar, Tooltip } from "antd";
 import { FaUser } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import heroImg from "../assets/hero1.png";
+import heroImg from "../assets/heroof1.png";
 const Hero = () => {
     const { t } = useTranslation();
   return (
@@ -182,7 +182,11 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute -bottom-[50px] right-0 -z-10 ">
-            <img className="opacity-55 lg:opacity-100" src={heroImg} alt="girl photo" />
+          <img
+             className="opacity-55 lg:opacity-100 w-[450px] sm:w-[550px] lg:w-[720px]"
+             src={heroImg}
+              alt="girl photo"
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 {
    "navbar": {
     "home": "Bosh sahifa",
-    "about": "Biz haqimizda",
+    "about": "Kurs haqida",
     "contact": "Aloqa",
     "news": "Afzalliklarimiz",
     "reception": "Tariflar",
@@ -30,5 +30,58 @@
     "afza4": "Individual yondashuv",
     "afza44": "Individual yondashuv — har bir o‘quvchining ehtiyojlari va qobiliyatlariga moslashtirilgan ta’lim, samarali va natijaga yo‘naltirilgan."
     
+  },
+
+  "kurs":{
+    "button":"Bizning afzalliklarimiz",
+    "title":"Elelson online kurslari orqali nimalarga ega bo‘lasen?",
+    "title2":"Endi sen ham ingliz tilida o‘z fikringni tushuntira olasan va suhbatdoshlaringni tushunishing mumkin. Bularning barchasi — Elelson senga taqdim etayotgan qulayliklar samarasidir.",
+    "comfo1":"Professional o‘qituvchilar",
+    "comfo11":"Shunchaki o‘rgatadigan emas, balki ilhomlantiradigan o‘qituvchilar jamoasi!",
+    "comfo2":"Xorijiy tyutorlar",
+    "comfo22":"Tyutor xorijlik ekspertlar tomonidan tekshirilgan, samarali ta’lim kafolatidir. ",
+    "comfo3":"Interaktiv platformalar",
+    "comfo33":"Interaktiv platformalar, aktual materiallar foydalanish imkoniyati.",
+    "comfo4":"Oson O‘rganish",
+    "comfo44":"Dars jadvallarisiz o‘rganish tez, erkin va vaqtni samarali boshqarish imkonini beradi."
+  },
+
+  "tarif":{
+    "titele":"Kurs to‘lov tariflari",
+    "title2":"Elelson kurslari uch xil tarifni taqdim etadi. Har bir tarif o‘ziga xos qulayliklar va o‘quv dasturiga ega.",
+    "bosh":"Boshlang‘ich",
+    "tarif1":"Bepul",
+    "um":"Shaxsiy foydalanish uchun ideal",
+    "tarif2":"3oy 599 000so‘m",
+    "tarif3":"6oy 599 000so‘m",
+    "tarif11":"700 ta foydali so‘z",
+    "tarif12":"O‘z haqingizda boshlang‘ich darajada gapira olish",
+    "tarif13":"Boshlang‘ich fonetika va grammatika ",
+    "tarif14":"Alifbo, to be, present/past zamonlar va boshqalar",
+    "tarif15":"Kundalik oddiy kichik suhbatlar",
+    "tarif22":"1200 ta so‘z",
+    "tarif21":"Kundalik suhbatlarni erkin olib borish",
+    "tarif23":"Asosiy grammatika (zamonaviy, modal fe’llar, bog‘lovchilar, shartli gaplar va boshqalar) ",
+    "tarif24":"Rasmiy xat va insho yozish qobiliyati",
+    "tarif25":"Bo‘sh vaqt, moliya, internet, ta’lim, ovqatlanish, kasblar, dunyo mavzularida muloqot",
+    "och":"Sinov darsi",
+    "sotib":"Xarid qilish"
+  },
+  "contact":{
+    "titele":"Kurslar haqida to‘liq ma’lumot olish va sotib olish uchun ariza qoldiring.",
+    "input1":"Ismingiz",
+    "input2":"Telefon raqamingiz",
+    "tarifb":"Bepul",
+    "tarif3oy":"3 oylik ",
+    "tarif6oy":"6 oylik ",
+    "input3":"Qo‘shimcha savollaringiz bo‘lsa, yozib qoldiring.",
+    "input4":"Tarifni tanlang",
+    "button":"Yuborish",
+    "button1":"Yuborilmoqda....",
+    "mes":"Xabar muvaffaqiyatli yuborildi",
+    "mes1":"Xatolik yuz berdi, qayta urinib ko‘ring"
+
+
+
   }
 }

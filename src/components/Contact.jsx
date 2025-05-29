@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { toast } from 'react-toastify';
+import { useTranslation } from "react-i18next";
+import imgC from "../assets/contactels.png"; 
 
 const Contact = () => {
+    const { t } = useTranslation();
     const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
+    const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
     const [tariff, setTariff] = useState('');
     const [loading, setLoading] = useState(false);
-    const sendMessageToBot = async (name, email, message, tariff) => {
-        const TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-        const CHAT_ID = "YOUR_CHAT_ID";
-        const text = `📩 Yangi xabar!\n\n👤 Ism: ${name}\n📧 Email: ${email}\n📝 Xabar:\n${message} Tariff:\n${tariff}`;
+
+    const sendMessageToBot = async (name, phone, message, tariff) => {
+        const TOKEN = "8194091080:AAGi0HKbljnPgHrY7YiD6BwsYU_ofQ4fGLI";
+        const CHAT_ID = "5389621761";
+        const text = `📩 Yangi xabar!\n\n👤 Ism: ${name}\n📱 Telefon: ${phone}\n📝  Tarif: ${tariff}\n📦 Xabar:\n${message}`;
 
         const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
@@ -37,42 +41,42 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-        setSuccess(false);
         try {
-            await sendMessageToBot(name, email, message, tariff);
-            toast.success("Xabar muvaffaqiyatli yuborildi")
+            await sendMessageToBot(name, phone, message, tariff);
+            toast.success(t("contact.mes"));
             setName("");
-            setEmail("");
+            setPhone("");
             setMessage("");
             setTariff('');
         } catch (err) {
-            toast.error("Xatolik yuz berdi");
+            toast.error(t("contact.mes1"));
         } finally {
             setLoading(false);
         }
     };
+
     return (
         <section className="bg-[#386d63] py-[60px]" id="contact">
             <div className="container1">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:gap-[130px]">
                     <div className=" bg-white rounded-[30px] shadow-lg p-[30px] sm:p-[40px]">
-                        <h2 className="text-[30px] sm:text-[35px] lg:text-[40px] font-bold mb-4">
-                            Questions? Get a quick reply by sending your message
+                        <h2 className="text-[30px] sm:text-[35px] lg:text-[30px] font-bold mb-4">
+                            {t("contact.titele")}
                         </h2>
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <input
                                 type="text"
-                                placeholder="Your Name"
+                                placeholder={t("contact.input1")}
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 required
                                 className="w-full p-3 border border-gray-300 rounded-md"
                             />
                             <input
-                                type="email"
-                                placeholder="youremail@domain.com"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                type="tel"
+                                placeholder={t("contact.input2")}
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
                                 required
                                 className="w-full p-3 border border-gray-300 rounded-md"
                             />
@@ -80,16 +84,15 @@ const Contact = () => {
                                 value={tariff}
                                 onChange={(e) => setTariff(e.target.value)}
                                 required
-                                placeholder="Tarif tanlang"
                                 className="w-full p-3 border border-gray-300 rounded-md "
                             >
-                                <option value="">Tarifni tanlang</option>
-                                <option value="Basic">Basic</option>
-                                <option value="Standard">Standard</option>
-                                <option value="Premium">Premium</option>
+                                <option value="">{t("contact.input4")}</option>
+                                <option value="Basic">{t("contact.tarifb")}</option>
+                                <option value="Standard">{t("contact.tarif3oy")}</option>
+                                <option value="Premium">{t("contact.tarif6oy")}</option>
                             </select>
                             <textarea
-                                placeholder="Enter your message here"
+                                placeholder={t("contact.input3")}
                                 rows={4}
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
@@ -101,11 +104,19 @@ const Contact = () => {
                                 className="w-full cursor-pointer bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
                                 disabled={loading}
                             >
-                                {loading ? "Sending..." : "Send My Message"}
+                                {loading ? t("contact.button1") : t("contact.button")}
                             </button>
                         </form>
                     </div>
-                    <div className="bg-[#fff] rounded-[60px] hidden md:block"></div>
+                    <div
+  className="rounded-[60px] hidden md:block w-full h-full"
+  style={{
+    backgroundImage: `url(${imgC})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}
+></div>
                 </div>
             </div>
         </section>
