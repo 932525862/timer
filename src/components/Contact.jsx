@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from 'react-toastify';
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -6,11 +7,10 @@ const Contact = () => {
     const [message, setMessage] = useState("");
     const [tariff, setTariff] = useState('');
     const [loading, setLoading] = useState(false);
-    const [success, setSuccess] = useState(false);
-    const sendMessageToBot = async (name, email, message) => {
+    const sendMessageToBot = async (name, email, message, tariff) => {
         const TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
         const CHAT_ID = "YOUR_CHAT_ID";
-        const text = `📩 Yangi xabar!\n\n👤 Ism: ${name}\n📧 Email: ${email}\n📝 Xabar:\n${message}`;
+        const text = `📩 Yangi xabar!\n\n👤 Ism: ${name}\n📧 Email: ${email}\n📝 Xabar:\n${message} Tariff:\n${tariff}`;
 
         const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
@@ -39,14 +39,14 @@ const Contact = () => {
         setLoading(true);
         setSuccess(false);
         try {
-            await sendMessageToBot(name, email, message);
-            setSuccess(true);
+            await sendMessageToBot(name, email, message, tariff);
+            toast.success("Xabar muvaffaqiyatli yuborildi")
             setName("");
             setEmail("");
             setMessage("");
             setTariff('');
         } catch (err) {
-            alert("Xatolik yuz berdi");
+            toast.error("Xatolik yuz berdi");
         } finally {
             setLoading(false);
         }
@@ -103,11 +103,6 @@ const Contact = () => {
                             >
                                 {loading ? "Sending..." : "Send My Message"}
                             </button>
-                            {success && (
-                                <p className="text-green-600 text-sm">
-                                    Xabar muvaffaqiyatli yuborildi ✅
-                                </p>
-                            )}
                         </form>
                     </div>
                     <div className="bg-[#fff] rounded-[60px] hidden md:block"></div>
