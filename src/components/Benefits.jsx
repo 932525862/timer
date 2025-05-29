@@ -8,7 +8,7 @@ import afza4 from "../assets/gif/elss4.gif";
 const Benefits = () => {
   const { t } = useTranslation();
   return (
-    <section className="bg-gray-100 py-[30px] sm:py-[50px]">
+    <section className="bg-gray-100 py-[30px] sm:py-[50px]" id="benefits">
       <div className="container">
         <div className="w-full text-center ">
           <h4 className="text-[28px] sm:text-[35px] font-[700]">{t("afza.title")}</h4>

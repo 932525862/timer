@@ -39,7 +39,7 @@ const Header = () => {
     };
   }, [open]);
   return (
-    <header className="bg-gray-100 py-5 relative">
+    <header className="bg-gray-100 py-5 relative " id="home">
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
@@ -55,13 +55,13 @@ const Header = () => {
                 <a href="#about">{t("navbar.about")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#blog">{t("navbar.news")}</a>
+                <a href="#benefits">{t("navbar.news")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#reception">{t("navbar.reception")}</a>
+                <a href="#tariff">{t("navbar.reception")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#tyutorlar">{t("navbar.tyutorlar")}</a>
+                <a href="#tutor">{t("navbar.tyutorlar")}</a>
               </li>
               <li className="hover:text-[#386d63]">
                 <a href="#contact">{t("navbar.contact")}</a>
@@ -118,13 +118,13 @@ const Header = () => {
             <a href="#about">{t("navbar.about")}</a>
           </li>
           <li onClick={closeBurger}>
-            <a href="#blog">{t("navbar.news")}</a>
+            <a href="#benefits">{t("navbar.news")}</a>
           </li>
           <li onClick={closeBurger}>
-          <a href="#reception">{t("navbar.reception")}</a>
+          <a href="#tariff">{t("navbar.reception")}</a>
           </li>
           <li onClick={closeBurger}>
-          <a href="#tyutorlar">{t("navbar.tyutorlar")}</a>
+          <a href="#tutor">{t("navbar.tyutorlar")}</a>
           </li>
           <li onClick={closeBurger}>
           <a href="#contact">{t("navbar.contact")}</a>

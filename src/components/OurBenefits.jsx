@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const OurBenefits = () => {
   return (
-    <section className="pt-[20px] pb-[20px] sm:pb-[50px] lg:pb-0 sm:pt-[50px]">
+    <section id="about" className="pt-[20px] pb-[20px] sm:pb-[50px] lg:pb-0 sm:pt-[50px]">
       <div className="container">
         <div className="flex">
           <div className="w-[50%] hidden lg:block">

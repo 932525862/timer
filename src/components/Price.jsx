@@ -10,7 +10,7 @@ import { Navigation, Pagination } from "swiper/modules";
 
 const Price = () => {
   return (
-    <section className="bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] mb-[400px] sm:mb-[450px]">
+    <section id="tariff" className="bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] mb-[400px] sm:mb-[450px]">
       <div className="container">
         <div>
           <div className="w-full text-center ">
@@ -85,9 +85,9 @@ const Price = () => {
                       <span>1 User Only</span>
                     </li>
                   </ul>
-                  <button className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
-                    <a href="#">Try For Free</a>
-                  </button>
+                  <a href="#contact" className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-center text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
+                    Try For Free
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -127,9 +127,9 @@ const Price = () => {
                       <span>1 User Only</span>
                     </li>
                   </ul>
-                  <button className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
-                    <a href="#">Try For Free</a>
-                  </button>
+                  <a href="#contact" className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-center text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
+                    Try For Free
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -169,9 +169,9 @@ const Price = () => {
                       <span>1 User Only</span>
                     </li>
                   </ul>
-                  <button className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
-                    <a href="#">Try For Free</a>
-                  </button>
+                  <a href="#contact" className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-center text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
+                    Try For Free
+                  </a>
                 </div>
               </div>
             </SwiperSlide>

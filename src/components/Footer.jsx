@@ -1,29 +1,34 @@
+import { useTranslation } from "react-i18next";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <header className="bg-[#fff] py-5 relative">
       <div className="container">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-wrap justify-between items-center">
           <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
             <a href="#home">elesson</a>
           </div>
           <nav>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-y-4 md:grid-cols-5 text-[18px]  sm:text-[22px] font-medium text-[#000]">
-              <li className="hover:text-[#386d63]">
-                <a href="#home">Home</a>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-y-4 lg:grid-cols-6 text-[18px]  sm:text-[22px] gap-3 font-medium text-[#000]">
+            <li className="hover:text-[#386d63]">
+                <a href="#home">{t("navbar.home")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#about">About Us</a>
+                <a href="#about">{t("navbar.about")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#blog">Blog</a>
+                <a href="#benefits">{t("navbar.news")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#courses">Courses</a>
+                <a href="#tariff">{t("navbar.reception")}</a>
               </li>
               <li className="hover:text-[#386d63]">
-                <a href="#contact">Contact Us</a>
+                <a href="#tutor">{t("navbar.tyutorlar")}</a>
+              </li>
+              <li className="hover:text-[#386d63]">
+                <a href="#contact">{t("navbar.contact")}</a>
               </li>
             </ul>
           </nav>

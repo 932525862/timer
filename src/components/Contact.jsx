@@ -52,7 +52,7 @@ const Contact = () => {
         }
     };
     return (
-        <section className="bg-[#386d63] py-[60px]" id="price">
+        <section className="bg-[#386d63] py-[60px]" id="contact">
             <div className="container1">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:gap-[130px]">
                     <div className=" bg-white rounded-[30px] shadow-lg p-[30px] sm:p-[40px]">
@@ -98,7 +98,7 @@ const Contact = () => {
                             />
                             <button
                                 type="submit"
-                                className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
+                                className="w-full cursor-pointer bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
                                 disabled={loading}
                             >
                                 {loading ? "Sending..." : "Send My Message"}

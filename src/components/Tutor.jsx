@@ -52,7 +52,7 @@ const Tutor = () => {
     setSelectedTutor(null);
   };
   return (
-    <section className="bg-gray-100 py-[30px] sm:py-[60px]">
+    <section id="tutor" className="bg-gray-100 py-[30px] sm:py-[60px]">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-4 gap-[30px]">
           <div className="col-span-2 lg:col-span-1">
@@ -101,7 +101,7 @@ const Tutor = () => {
                     className="rounded-[20px] bg-[#fff] py-[20px] sm:py-[30px] px-[10px] flex flex-col items-center cursor-pointer"
                     onClick={() => openModal(tutor)}
                   >
-                    <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"></div>
+                    <div className="w-[120px] sm:w-[160px] h-[120px] sm:h-[160px] rounded-[50%] bg-[#386d63]"><img src="" alt="avatar" /></div>
                     <h6 className="mt-[10px] sm:mt-[15px] text-[18px] sm:text-[22px] font-[600] text-center">
                       {tutor.name}
                     </h6>
