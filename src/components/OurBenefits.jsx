@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/hero1.png";
+import img from "../assets/ellsa.jpg";
 import { FaUser } from "react-icons/fa";
 
 const OurBenefits = () => {
