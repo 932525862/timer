@@ -1,6 +1,7 @@
 import "./App.css";
 import Benefits from "./components/Benefits";
 import Contact from "./components/Contact";
+import FloatingCallButton from "./components/FloatingCallButton";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -13,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <>
-    <ToastContainer />
+      <ToastContainer />
       <Header />
       <Hero />
       <Benefits />
@@ -22,6 +23,7 @@ function App() {
       <Tutor />
       <Contact/>
       <Footer />
+      <FloatingCallButton/>
     </>
   );
 }
