@@ -107,7 +107,7 @@ const Price = () => {
                   <a href="https://elesson.exode.biz" className="bg-[#386d63] group-hover:bg-black cursor-pointer w-full text-center text-[#fff] text-[20px] font-[600] rounded-[30px] py-[13px] transition-all duration-300">
                   {t("tarif.sotib")}
                   </a>
-                </div>
+                </div> 
               </div>
             </SwiperSlide>
           </Swiper>
