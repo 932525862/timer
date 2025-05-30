@@ -10,7 +10,7 @@ const OurBenefits = () => {
     <section id="about" className="pt-[20px] pb-[20px] sm:pb-[50px] lg:pb-0 sm:pt-[50px]">
       <div className="container">
         <div className="flex">
-          <div className="w-[50%] hidden lg:block">
+          <div className="w-[50%] hidden lg:flex items-end">
             <img className="w-auto h-[700px]" src={img} alt="girl photo" />
           </div>
           <div className="w-full lg:w-[50%]">
@@ -18,12 +18,12 @@ const OurBenefits = () => {
             {t("kurs.button")}
             </button>
             <h5 className="text-[28px] sm:text-[40px] font-[700]">
-            {t("kurs.title")}
+              <span className="text-[#386d63]">Elesson</span>  {t("kurs.title")}
             </h5>
             <p className="text-[16px] sm:text-[20px] text-gray-500">
             {t("kurs.title2")}
             </p>
-            <div className="grid grid-cols-2 gap-x-[10px] gap-y-[20px] mt-[20px]">
+            <div className="grid grid-cols-2 gap-x-[10px] gap-y-[20px] mt-[20px] mb-[20px] sm:mb-[50px]">
               <div>
                 <div className="text-[#fff] bg-[#386d63] text-[20px] sm:text-[25px] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] flex justify-center items-center rounded-[50%]">
                   <FaUser />
