@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
-import imgC from "../assets/eleso.webp";
+// import imgC from "../assets/eleso.webp";
 import contactBg from "../assets/contact-bg.jpg"
 
 const Contact = () => {
@@ -66,18 +66,18 @@ const Contact = () => {
      <div className="absolute inset-0 bg-black z-0 backdrop-blur-3xl w-full h-full opacity-50"></div>
       <div className="container1 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:gap-[130px]">
-          <div className=" bg-white rounded-[30px] shadow-lg p-[30px] sm:p-[40px]">
-            <h2 className="text-[30px] sm:text-[35px] lg:text-[30px] font-bold mb-4">
+          <div className="  rounded-[30px] shadow-lg p-[30px] sm:p-[40px]">
+            <h2 className="text-[30px] sm:text-[35px] lg:text-[30px] text-[#ffffff] font-bold mb-4">
               {t("contact.titele")}
             </h2>
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4 ">
               <input
                 type="text"
                 placeholder={t("contact.input1")}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border-3 border-gray-300 rounded-md  placeholder-white"
               />
               <input
                 type="tel"
@@ -85,37 +85,45 @@ const Contact = () => {
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border-3 border-gray-300 placeholder-white rounded-md"
               />
-              <select
-                value={tariff}
-                onChange={(e) => setTariff(e.target.value)}
-                required
-                className="w-full p-3 border border-gray-300 rounded-md "
-              >
-                <option value="">{t("contact.input4")}</option>
-                <option value="Basic">{t("contact.tarifb")}</option>
-                <option value="Standard">{t("contact.tarif3oy")}</option>
-                <option value="Premium">{t("contact.tarif6oy")}</option>
-              </select>
+                <select
+  value={tariff}
+  onChange={(e) => setTariff(e.target.value)}
+  required
+  className="w-full p-3 border-3 border-gray-300 rounded-md text-white appearance-none"
+>
+  <option value="" className="text-white">
+    {t("contact.input4")}
+  </option>
+  <option value="Basic" className="text-black bg-white">
+    {t("contact.tarifb")}
+  </option>
+  <option value="Standard" className="text-black bg-white">
+    {t("contact.tarif3oy")}
+  </option>
+  <option value="Premium" className="text-black bg-white">
+    {t("contact.tarif6oy")}
+  </option>
+</select>
               <textarea
                 placeholder={t("contact.input3")}
                 rows={4}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border-3 border-gray-300 placeholder-white rounded-md"
               />
               <button
                 type="submit"
-                className="w-full cursor-pointer bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
+                className="w-full cursor-pointer bg-white text-black py-3 rounded-md hover:bg-gray-800 transition"
                 disabled={loading}
               >
                 {loading ? t("contact.button1") : t("contact.button")}
               </button>
             </form>
           </div>
-          <div
+          {/* <div
             className="rounded-[60px] hidden md:block w-full h-full"
             style={{
               backgroundImage: `url(${imgC})`,
@@ -123,7 +131,7 @@ const Contact = () => {
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
             }}
-          ></div>
+          ></div> */}
         </div>
       </div>
     </section>
