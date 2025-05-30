@@ -1,88 +1,81 @@
 {
-   "navbar": {
-    "home": "Bosh sahifa",
-    "about": "Kurs haqida",
-    "contact": "Aloqa",
-    "news": " Online ta`lim afzalliklari",
-    "reception": "Tariflar",
-    "tyutorlar": "Tyutorlar",
-    "kurs":"Kursga kirish"
-  } ,
+  "navbar": {
+    "home": "Главная",
+    "about": "О курсе",
+    "contact": "Контакты",
+    "news": "Преимущества онлайн-обучения",
+    "reception": "Тарифы",
+    "tyutorlar": "Тьюторы",
+    "kurs": "Войти в курс"
+  },
   "about": {
-    "title": "Salom! Men elesson!",
-    "description": "Salom! Men — eLesson! Men shunchaki onlayn kurs emas, balki sening ishonchli hamkoringman. Dunyo tillarini tez, oson va qulay tarzda o‘rganishni zamonaviy metodlar va aqlli yechimlar orqali taklif qilaman.",
-    "viewOrders": "Kursga kirish",
-    "mijoz": "Mijozlar fikri",
-    "mijozDescription": "elesson kursi malakali tyutorlar va ekspertlar yordamida tilni tez, oson va qulay o‘rganish imkonini beradi. Bu kurs ishonchli hamkorlik, zamonaviy metodlar va samarali natijalarni ta’minlaydi.",
-    "rating": "Reyting",
-    "mijozlar": "Mijozlar",
-    "manun": "Mamnun mijozlar"
-
+    "title": "Привет! Я eLesson!",
+    "description": "Привет! Я — eLesson! Я не просто онлайн-курс, а твой надежный партнёр. Предлагаю изучение иностранных языков быстро, легко и удобно с помощью современных методов и умных решений.",
+    "viewOrders": "Войти в курс",
+    "mijoz": "Отзывы клиентов",
+    "mijozDescription": "Курс eLesson с участием квалифицированных тьюторов и экспертов позволяет быстро, легко и удобно изучать язык. Это надёжное партнёрство, современные методы и эффективные результаты.",
+    "rating": "Рейтинг",
+    "mijozlar": "Клиенты",
+    "manun": "Довольные клиенты"
   },
-  "afza":{
-    "title": "Elesson bilan",
-    "description": "Malakali tyutorlar, virtual kursdoshlar, chet ellik ekspertlar bilan zerikarli darslarni unutishing, yangi imkoniyatlar olamiga eshik ochishing mumkin",
-    "afza1": "Vaqt va pulni tejash",
-    "afza11": "Vaqt va pulni tejash — samarali o‘qish usullari orqali keraksiz xarajatlar va ortiqcha vaqt sarfini kamaytirish imkoniyati.",
-    "afza2": "O‘zingga qulay vaqtda va joyda o‘rganish!",
-    "afza22": "O‘zingga qulay vaqtda va joyda o‘rganish — moslashuvchan, samarali va istalgan vaqtda bilim olish imkoniyati.",
-    "afza3": "Darslarni qayta ko’rish imkoni!",
-    "afza33": "Darslarni qayta ko‘rish imkoni — o‘rganilgan mavzularni takrorlash, tushunishni chuqurlashtirish va bilimlarni mustahkamlash uchun qulay imkoniyat.",
-    "afza4": "Individual yondashuv",
-    "afza44": "Individual yondashuv — har bir o‘quvchining ehtiyojlari va qobiliyatlariga moslashtirilgan ta’lim, samarali va natijaga yo‘naltirilgan."
-    
+  "afza": {
+    "title": "С eLesson",
+    "description": "Благодаря квалифицированным тьюторам, виртуальным одногруппникам и зарубежным экспертам вы забудете о скучных уроках и откроете дверь в мир новых возможностей.",
+    "afza1": "Экономия времени и денег",
+    "afza11": "Экономия времени и денег — возможность избежать лишних затрат и сэкономить время благодаря эффективным методам обучения.",
+    "afza2": "Учитесь в удобное для вас время и в любом месте!",
+    "afza22": "Гибкое и удобное обучение в любое время и в любом месте — это эффективное получение знаний без ограничений.",
+    "afza3": "Возможность пересматривать уроки!",
+    "afza33": "Пересмотр уроков — это отличная возможность повторить изученное, глубже понять материал и закрепить знания.",
+    "afza4": "Индивидуальный подход",
+    "afza44": "Индивидуальный подход — это обучение, адаптированное к потребностям и способностям каждого ученика для достижения наилучших результатов."
   },
-
-  "kurs":{
-    "button":"Bizning afzalliklarimiz",
-    "title":"Elesson online kurslari orqali nimalarga ega bo'lasan",
-    "title2":"Endi sen ham ingliz tilida o‘z fikringni tushuntira olasan va suhbatdoshlaringni tushunishing mumkin. Bularning barchasi — Elelson senga taqdim etayotgan qulayliklar samarasidir.",
-    "comfo1":"Professional o‘qituvchilar",
-    "comfo11":"Shunchaki o‘rgatadigan emas, balki ilhomlantiradigan o‘qituvchilar jamoasi!",
-    "comfo2":"Xorijiy ekspertlar",
-    "comfo22":"Ekspertlar, dars jarayonini kuzatib, o'quvchilarni baholab boradi. Bu sifatli ta`lim kafolati! ",
-    "comfo3":"Zamonaviy platforma",
-    "comfo33":"Online imtixon, test, aktual elektron kitob va materiallardan foydalanish imkoniyati!",
-    "comfo4":"Oson O‘rganish",
-    "comfo44":"Qulay joy va vaqtni tanlashing, samaradorligingni oshiradi!"
+  "kurs": {
+    "button": "Наши преимущества",
+    "title": "Что ты получишь благодаря онлайн-курсам",
+    "title2": "Теперь и ты сможешь выражать свои мысли на английском и понимать своих собеседников. Всё это — результат удобств, которые предоставляет тебе eLesson.",
+    "comfo1": "Профессиональные преподаватели",
+    "comfo11": "Не просто обучающие, а вдохновляющие учителя!",
+    "comfo2": "Зарубежные эксперты",
+    "comfo22": "Эксперты следят за процессом обучения и оценивают учеников. Это гарантия качественного образования!",
+    "comfo3": "Современная платформа",
+    "comfo33": "Возможность сдачи онлайн-экзаменов, тестов и доступ к актуальным электронным книгам и материалам!",
+    "comfo4": "Лёгкое обучение",
+    "comfo44": "Выбор удобного времени и места повысит вашу продуктивность!"
   },
-
-  "tarif":{
-    "titele":"Kurs to‘lov tariflari",
-    "title2":"Elelson kurslari uch xil tarifni taqdim etadi. Har bir tarif o‘ziga xos qulayliklar va o‘quv dasturiga ega.",
-    "bosh":"Boshlang‘ich",
-    "tarif1":"Bepul",
-    "um":"Shaxsiy foydalanish uchun ideal",
-    "tarif2":"3oy 599 000so‘m",
-    "tarif3":"6oy 599 000so‘m",
-    "tarif11":"700 ta foydali so‘z",
-    "tarif12":"O‘z haqingizda boshlang‘ich darajada gapira olish",
-    "tarif13":"Boshlang‘ich fonetika va grammatika ",
-    "tarif14":"Alifbo, to be, present/past zamonlar va boshqalar",
-    "tarif15":"Kundalik oddiy kichik suhbatlar",
-    "tarif22":"1200 ta so‘z",
-    "tarif21":"Kundalik suhbatlarni erkin olib borish",
-    "tarif23":"Asosiy grammatika (zamonaviy, modal fe’llar, bog‘lovchilar, shartli gaplar va boshqalar) ",
-    "tarif24":"Rasmiy xat va insho yozish qobiliyati",
-    "tarif25":"Bo‘sh vaqt, moliya, internet, ta’lim, ovqatlanish, kasblar, dunyo mavzularida muloqot",
-    "och":"Sinov darsi",
-    "sotib":"Xarid qilish"
+  "tarif": {
+    "titele": "Тарифы курса",
+    "title2": "Курсы eLesson предлагают три разных тарифа. Каждый тариф имеет свои особенности и учебную программу.",
+    "bosh": "Начальный",
+    "tarif1": "Бесплатно",
+    "um": "Идеально для личного пользования",
+    "tarif2": "3 месяца — 599 000 сум",
+    "tarif3": "6 месяцев — 599 000 сум",
+    "tarif11": "700 полезных слов",
+    "tarif12": "Умение рассказать о себе на начальном уровне",
+    "tarif13": "Начальная фонетика и грамматика",
+    "tarif14": "Алфавит, глагол to be, времена present/past и другие",
+    "tarif15": "Простые повседневные диалоги",
+    "tarif22": "1200 слов",
+    "tarif21": "Свободное ведение повседневных разговоров",
+    "tarif23": "Основная грамматика (современные времена, модальные глаголы, союзы, условные предложения и др.)",
+    "tarif24": "Умение писать официальные письма и эссе",
+    "tarif25": "Общение на темы досуга, финансов, интернета, образования, питания, профессий, мировых событий",
+    "och": "Пробный урок",
+    "sotib": "Купить"
   },
-  "contact":{
-    "titele":"Savolingiz bormi? Biz shu yerdamiz!",
-    "input1":"Ismingiz",
-    "input2":"Telefon raqamingiz",
-    "tarifb":"Bepul",
-    "tarif3oy":"3 oylik ",
-    "tarif6oy":"6 oylik ",
-    "input3":"Qo‘shimcha savollaringiz bo‘lsa, yozib qoldiring.",
-    "input4":"Tarifni tanlang",
-    "button":"Yuborish",
-    "button1":"Yuborilmoqda....",
-    "mes":"Xabar muvaffaqiyatli yuborildi",
-    "mes1":"Xatolik yuz berdi, qayta urinib ko‘ring"
-
-
-
+  "contact": {
+    "titele": "Есть вопросы? Мы здесь!",
+    "input1": "Ваше имя",
+    "input2": "Ваш номер телефона",
+    "tarifb": "Бесплатно",
+    "tarif3oy": "3 месяца",
+    "tarif6oy": "6 месяцев",
+    "input3": "Если у вас есть дополнительные вопросы, напишите их здесь.",
+    "input4": "Выберите тариф",
+    "button": "Отправить",
+    "button1": "Отправляется...",
+    "mes": "Сообщение успешно отправлено",
+    "mes1": "Произошла ошибка, попробуйте ещё раз"
   }
 }

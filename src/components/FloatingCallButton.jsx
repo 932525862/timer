@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 const FloatingCallButton = () => {
   return (
     <a
-      href="tel:+998901234567"
+      href="tel:+998785550109"
       className="fixed bottom-6 right-6 z-50 animate-bounce"
       aria-label="Call Us"
     >

@@ -18,7 +18,7 @@ const OurBenefits = () => {
             {t("kurs.button")}
             </button>
             <h5 className="text-[28px] sm:text-[40px] font-[700]">
-              <span className="text-[#386d63]">Elesson</span>  {t("kurs.title")}
+              <span className="text-[#386d63] nuqun ">elesson</span>  {t("kurs.title")}
             </h5>
             <p className="text-[16px] sm:text-[20px] text-gray-500">
             {t("kurs.title2")}
@@ -46,7 +46,13 @@ const OurBenefits = () => {
                 <h6 className="mt-[10px] sm:mt-[20px] text-[20px] sm:text-[25px] font-[700]"> {t("kurs.comfo3")}</h6>
                 <p className="mt-[10px] sm:mt-[20px] text-[16px] sm:text-[18px] text-gray-500"> {t("kurs.comfo33")}</p>
               </div>
-             
+              <div>
+                <div className="text-[#fff] bg-[#386d63] text-[20px] sm:text-[25px] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] flex justify-center items-center rounded-[50%]">
+                <HiRocketLaunch />
+                </div>
+                <h6 className="mt-[10px] sm:mt-[20px] text-[20px] sm:text-[25px] font-[700]"> {t("kurs.comfo4")}</h6>
+                <p className="mt-[10px] sm:mt-[20px] text-[16px] sm:text-[18px] text-gray-500"> {t("kurs.comfo44")}</p>
+              </div>
             </div>
           </div>
         </div>
