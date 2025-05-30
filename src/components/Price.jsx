@@ -9,7 +9,8 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 
 const Price = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
   return (
     <section
       id="tariff"
@@ -53,7 +54,7 @@ const Price = () => {
             }}
           >
             <SwiperSlide className="h-auto">
-              <div className="group border border-gray-300 rounded-[30px] sm:rounded-[40px] h-[570px] sm:h-[630px] flex flex-col transition-all duration-300">
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
                   <div className="font-[700] text-[25px] sm:text-[30px] mt-[15px]">
@@ -80,7 +81,7 @@ const Price = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="h-auto">
-              <div className="group border border-gray-300 rounded-[30px] h-[570px] sm:h-[630px] flex flex-col sm:rounded-[40px] transition-all duration-300">
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
                   <div className="font-[700] text-[25px] sm:text-[30px] mt-[15px]">
@@ -119,13 +120,13 @@ const Price = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="h-auto">
-              <div className="group border border-gray-300 rounded-[30px] h-[570px] sm:h-[630px] flex flex-col sm:rounded-[40px] transition-all duration-300">
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
-                  <div className="font-[700] text-[25px] sm:text-[30px] mt-[15px]">
+                  <div className="font-[700] text-[20px] sm:text-[30px] mt-[10px] sm:mt-[15px]">
                     {t("tarif.tarif3")}
                   </div>
-                  <div className="mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
+                  <div className="mt-[10  px] sm:mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
                     {t("tarif.um")}
                   </div>
                 </div>
