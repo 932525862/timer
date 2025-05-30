@@ -13,14 +13,14 @@ const Hero = () => {
         <div className="mb-[50px]">
           <div>
             <div className="mt-[40px]">
-              <h1 className="text-[45px] sm:text-[65px] font-bold max-w-[400px] sm:max-w-[500px]">
-              {t("about.title")}
+              <h1 className="text-[45px] sm:text-[65px]  nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
+                elesson
               </h1>
               <p className="text-[#386d63] font-[600] lg:text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
               {t("about.description")}
               </p>
               <button className="bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]">
-                <a href="#"> {t("about.viewOrders")}</a>
+                <a href="https://elesson.exode.biz"> {t("about.viewOrders")}</a>
               </button>
             </div>
             <div className="mt-[50px] flex gap-7">

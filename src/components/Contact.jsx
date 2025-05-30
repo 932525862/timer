@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { toast } from 'react-toastify';
 import { useTranslation } from "react-i18next";
-import imgC from "../assets/contactels.png"; 
+import imgC from "../assets/eleso.webp"; 
 
 const Contact = () => {
     const { t } = useTranslation();

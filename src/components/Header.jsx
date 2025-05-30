@@ -43,7 +43,7 @@ const Header = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
-            <a href="#home">elesson</a>
+            <a href="+998785550109">78-555-01-09</a>
           </div>
           <div className="flex items-center gap-4">
           <nav>

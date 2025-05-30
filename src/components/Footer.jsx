@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-wrap justify-between items-center">
           <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
-            <a href="#home">elesson</a>
+          <a href="+998785550109">78-555-01-09</a>
           </div>
           <nav>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-y-4 lg:grid-cols-6 text-[18px]  sm:text-[22px] gap-3 font-medium text-[#000]">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-y-3 lg:grid-cols-3 text-[18px]  sm:text-[22px] gap-3 font-medium text-[#000]">
             <li className="hover:text-[#386d63]">
                 <a href="#home">{t("navbar.home")}</a>
               </li>
