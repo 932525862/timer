@@ -14,7 +14,7 @@ const Price = () => {
   return (
     <section
       id="tariff"
-      className="bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] mb-[430px] sm:mb-[450px]"
+      className={`bg-[#000000de] pt-[30px] sm:pt-[50px] h-[400px] sm:h-[500px] rounded-t-[40px]  sm:rounded-t-[50px] ${i18n.language == 'uz' ? "mb-[360px] sm:mb-[420px]" : "mb-[440px] sm:mb-[450px]"}`}
     >
       <div className="container">
         <div>
@@ -54,19 +54,19 @@ const Price = () => {
             }}
           >
             <SwiperSlide className="h-auto">
-              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[520px] sm:h-[580px]" : "h-[580px] sm:h-[630px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
-                  <div className="font-[700] text-[25px] sm:text-[30px] mt-[15px]">
+                  <div className="font-[700] text-[20px] sm:text-[30px] mt-[15px]">
                     {t("tarif.tarif1")}
                   </div>
-                  <div className="mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
+                  <div className="mt-[10px] sm:mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
                     {t("tarif.um")}
                   </div>
                 </div>
                 <div className="p-[30px] sm:p-[40px] flex flex-col justify-between h-full flex-grow gap-[20px]">
                   <ul className="flex flex-col flex-grow gap-[10px]">
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.och")}</span>
                     </li>
@@ -81,31 +81,31 @@ const Price = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="h-auto">
-              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[520px] sm:h-[580px]" : "h-[580px] sm:h-[630px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
-                  <div className="font-[700] text-[25px] sm:text-[30px] mt-[15px]">
+                  <div className="font-[700] text-[20px] sm:text-[30px] mt-[10px] sm:mt-[15px]">
                     {t("tarif.tarif2")}
                   </div>
-                  <div className="mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
+                  <div className="mt-[10px] sm:mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
                     {t("tarif.um")}
                   </div>
                 </div>
                 <div className="p-[30px] sm:p-[40px] flex flex-col gap-[20px] justify-between h-full flex-grow">
                   <ul className="flex flex-col gap-[10px]">
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif12")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif13")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif14")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif15")}</span>
                     </li>
@@ -120,31 +120,31 @@ const Price = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="h-auto">
-              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[570px] sm:h-[630px]" : "h-[570px] sm:h-[650px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
+              <div className={`group border border-gray-300 rounded-[30px] ${i18n.language == 'uz' ? "h-[520px] sm:h-[580px]" : "h-[580px] sm:h-[630px]"} flex flex-col sm:rounded-[40px] transition-all duration-300`}>
                 <div className="bg-gray-100 group-hover:bg-black group-hover:text-[#fff] rounded-t-[30px] sm:rounded-t-[40px] p-[30px] sm:p-[40px] transition-all duration-300">
                   <div className="font-[600]">{t("tarif.bosh")}</div>
                   <div className="font-[700] text-[20px] sm:text-[30px] mt-[10px] sm:mt-[15px]">
                     {t("tarif.tarif3")}
                   </div>
-                  <div className="mt-[10  px] sm:mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
+                  <div className="mt-[10px] sm:mt-[15px] text-gray-500 text-[14px] sm:text-[16px] group-hover:text-[#fff] transition-all duration-300">
                     {t("tarif.um")}
                   </div>
                 </div>
-                <div className="p-[30px] sm:p-[40px] flex flex-col gap-[20px] justify-between h-full">
-                  <ul className="flex flex-col gap-[10px]">
-                    <li className="flex items-center gap-[10px]  text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                <div className="p-[30px] sm:p-[40px] flex flex-col gap-[15px] justify-between h-full">
+                  <ul className="flex flex-col gap-[5px]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif22")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px]  text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px]  text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif21")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px]  text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
-                      <MdDone className="text-[#386d63] text-[50px]" />{" "}
+                    <li className="flex items-center gap-[10px]  text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
+                      <MdDone className="text-[#386d63] text-[35px]" />{" "}
                       <span>{t("tarif.tarif23")}</span>
                     </li>
-                    <li className="flex items-center gap-[10px] text-[16px] sm:text-[18px] lg:text-[20px] font-[500]">
+                    <li className="flex items-center gap-[10px] text-[13px] sm:text-[14px] lg:text-[16px] font-[500]">
                       <MdDone className="text-[#386d63]" />{" "}
                       <span>{t("tarif.tarif24")}</span>
                     </li>
