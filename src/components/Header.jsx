@@ -42,8 +42,8 @@ const Header = () => {
     <header className="bg-gray-100 py-5 relative " id="home">
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="cursor-pointer text-[35px] font-[600] nuqun text-[#386d63]">
-            <a href="tel:+998785550109">78-555-01-09</a>
+          <div className="">
+            <a className="bg-[#386d63] block lg:hidden hover:bg-[#2d5c54] text-[#fff] py-[10px] px-6 cursor-pointer rounded-4xl font-[600]" href="tel:+998785550109">78-555-01-09</a>
           </div>
           <div className="flex items-center gap-4">
           <nav>
@@ -54,7 +54,7 @@ const Header = () => {
               <li className="hover:text-[#386d63]">
                 <a href="#about">{t("navbar.about")}</a>
               </li>
-              <li className="hover:text-[#386d63]">
+              <li className="hover:text-[#386d63] hidden xl:block">
                 <a href="#benefits">{t("navbar.news")}</a>
               </li>
               <li className="hover:text-[#386d63]">
@@ -65,6 +65,9 @@ const Header = () => {
               </li>
               <li className="hover:text-[#386d63]">
                 <a href="#contact">{t("navbar.contact")}</a>
+              </li>
+              <li>
+              <a className="bg-[#386d63] hover:bg-[#2d5c54] text-[18px] text-[#fff] py-[10px] px-6 cursor-pointer rounded-4xl font-[600]" href="tel:+998785550109">78-555-01-09</a>
               </li>
               <li>
               <Select

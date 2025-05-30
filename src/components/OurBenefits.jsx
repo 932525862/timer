@@ -17,13 +17,20 @@ const OurBenefits = () => {
             <button className="py-[5px] px-[15px] text-[18px] font-[600] bg-[#386d63] text-[#fff] rounded-[30px] mb-[20px]">
             {t("kurs.button")}
             </button>
-            <h5 className="text-[28px] sm:text-[40px] font-[700]">
+            <h5 className="text-[28px] sm:text-[40px] leading-10 font-[700] mb-[10px]">
               <span className="text-[#386d63] nuqun ">elesson</span>  {t("kurs.title")}
             </h5>
             <p className="text-[16px] sm:text-[20px] text-gray-500">
             {t("kurs.title2")}
             </p>
             <div className="grid grid-cols-2 gap-x-[10px] gap-y-[20px] mt-[20px] mb-[20px] sm:mb-[50px]">
+            <div>
+                <div className="text-[#fff] bg-[#386d63] text-[20px] sm:text-[25px] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] flex justify-center items-center rounded-[50%]">
+                <HiRocketLaunch />
+                </div>
+                <h6 className="mt-[10px] sm:mt-[20px] text-[20px] sm:text-[25px] font-[700]"> {t("kurs.comfo4")}</h6>
+                <p className="mt-[10px] sm:mt-[20px] text-[16px] sm:text-[18px] text-gray-500"> {t("kurs.comfo44")}</p>
+              </div>
               <div>
                 <div className="text-[#fff] bg-[#386d63] text-[20px] sm:text-[25px] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] flex justify-center items-center rounded-[50%]">
                   <FaUser />
@@ -46,13 +53,7 @@ const OurBenefits = () => {
                 <h6 className="mt-[10px] sm:mt-[20px] text-[20px] sm:text-[25px] font-[700]"> {t("kurs.comfo3")}</h6>
                 <p className="mt-[10px] sm:mt-[20px] text-[16px] sm:text-[18px] text-gray-500"> {t("kurs.comfo33")}</p>
               </div>
-              <div>
-                <div className="text-[#fff] bg-[#386d63] text-[20px] sm:text-[25px] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] flex justify-center items-center rounded-[50%]">
-                <HiRocketLaunch />
-                </div>
-                <h6 className="mt-[10px] sm:mt-[20px] text-[20px] sm:text-[25px] font-[700]"> {t("kurs.comfo4")}</h6>
-                <p className="mt-[10px] sm:mt-[20px] text-[16px] sm:text-[18px] text-gray-500"> {t("kurs.comfo44")}</p>
-              </div>
+              
             </div>
           </div>
         </div>

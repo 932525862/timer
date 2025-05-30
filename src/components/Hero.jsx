@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="container relative">
         <div className="mb-[50px]">
           <div>
-            <div className="mt-[40px]">
-              <h1 className="text-[45px] sm:text-[65px]  nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
+            <div className="mt-[20px] sm:mt-[40px]">
+              <h1 className="text-[80px] sm:text-[120px] nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
                 elesson
               </h1>
               <p className="text-[#386d63] font-[600] lg:text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
