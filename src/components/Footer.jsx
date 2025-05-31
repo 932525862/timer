@@ -13,7 +13,7 @@ const Footer = () => {
             <a className="bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]" href="tel:+998785550109">78-555-01-09</a>
           </div>
           <nav>
-            <ul className="flex text-[18px] flex-wrap sm:text-[22px] gap-4 font-medium text-[#000]">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 md:flex text-[18px] flex-wrap sm:text-[22px] gap-4 font-medium text-[#000]">
             <li className="hover:text-[#386d63]">
                 <a href="#home">{t("navbar.home")}</a>
               </li>
