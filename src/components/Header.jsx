@@ -54,7 +54,7 @@ const Header = () => {
               <li className="hover:text-[#386d63]">
                 <a href="#about">{t("navbar.about")}</a>
               </li>
-              <li className="hover:text-[#386d63] hidden xl:block">
+              <li className="hover:text-[#386d63] ">
                 <a href="#benefits">{t("navbar.news")}</a>
               </li>
               <li className="hover:text-[#386d63]">
