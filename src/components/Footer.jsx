@@ -39,9 +39,9 @@ const Footer = () => {
       <div className="border-t border-gray-200 mt-4">
         <div className="container">
           <div className="py-[30px] flex justify-between flex-wrap gap-4">
-            <div className="text-[20px] text-gray-500 font-[500]">{t("contact.fotr44")}</div>
+            <div className="text-[20px] text-gray-500 font-[500]"></div>
             <div>
-              <ul className="flex gap-4 text-[25px] text-[#386d63]">
+              {/* <ul className="flex gap-4 text-[25px] text-[#386d63]">
                 <li className="hover:text-[#2d5c54]">
                   <a href="#">
                     <FaFacebook />
@@ -62,7 +62,7 @@ const Footer = () => {
                     <FaLinkedin />
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
