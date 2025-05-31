@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
-import contactBg from "../assets/contact-bg.jpg";
+// import imgC from "../assets/eleso.webp";
+import contactBg from "../assets/contact-bg.jpg"
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -68,9 +69,9 @@ const Contact = () => {
     >
       <div className="absolute inset-0 bg-black z-0 backdrop-blur-3xl w-full h-full opacity-50"></div>
       <div className="container1 relative z-10">
-        <div className="flex justify-center items-center">
-          <div className="w-full max-w-[500px] bg-white/10 rounded-[30px] shadow-lg p-[20px] sm:p-[30px] backdrop-blur-md">
-            <h2 className="text-[28px] sm:text-[32px] text-white font-bold mb-4 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:gap-[130px]">
+        <div className="rounded-[30px] shadow-lg p-[30px] sm:p-[40px] ml-[-20px] 2xl:ml-0 max-w-[480px]">
+            <h2 className="text-[30px] sm:text-[35px] lg:text-[30px] text-[#ffffff] font-bold mb-4">
               {t("contact.titele")}
             </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -126,6 +127,15 @@ const Contact = () => {
               </button>
             </form>
           </div>
+          {/* <div
+            className="rounded-[60px] hidden md:block w-full h-full"
+            style={{
+              backgroundImage: `url(${imgC})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+            }}
+          ></div> */}
         </div>
       </div>
     </section>

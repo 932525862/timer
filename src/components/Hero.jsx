@@ -13,15 +13,15 @@ const Hero = () => {
         <div className="mb-[50px]">
           <div>
             <div className="mt-[20px] sm:mt-[40px]">
-              <h1 className="text-[90px] sm:text-[120px] nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
+              <h1 className="text-[100px] sm:text-[130px] nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
                 elesson
               </h1>
               
-              <p className="text-[30px] sm:text-[60px] text-[#386d63] max-w-[400px] sm:max-w-[500px] leading-tight">
+              <p className="mt-[-35px] text-[20px] sm:text-[25px] text-[#386d63] max-w-[400px] sm:max-w-[500px] leading-tight">
                  {t("about.description")}
                 </p>
 
-              <button className="bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]">
+              <button className="mt-[45px] bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]">
                 <a href="https://elesson.exode.biz"> {t("about.viewOrders")}</a>
               </button>
             </div>

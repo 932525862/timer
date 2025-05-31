@@ -10,7 +10,7 @@
   } ,
   "about": {
     "title": "Salom! Men elesson!",
-    "description": "Zamon talabiga moslashtir ",
+   "description": "Будь в тренде времени!",
     "viewOrders": "Kursga kirish",
     "mijoz": "Mijozlar fikri",
     "mijozDescription": "elesson kursi malakali tyutorlar va ekspertlar yordamida tilni tez, oson va qulay o‘rganish imkonini beradi. Bu kurs ishonchli hamkorlik, zamonaviy metodlar va samarali natijalarni ta’minlaydi.",
@@ -20,7 +20,7 @@
 
   },
   "afza":{
-    "title": "bilan",
+    "title": "bilan :",
     "description": "Malakali tyutorlar, virtual kursdoshlar, chet ellik ekspertlar bilan zerikarli darslarni unutishing, yangi imkoniyatlar olamiga eshik ochishing mumkin..",
     "afza1": "Vaqt va pulni tejash",
     "afza11": "Vaqt va pulni tejash — samarali o‘qish usullari orqali keraksiz xarajatlar va ortiqcha vaqt sarfini kamaytirish imkoniyati.",
@@ -48,7 +48,7 @@
   },
 
   "tarif":{
-    "titele":"Tariflar..",
+    "titele":"Tariflar :",
     "title2":"Elelson kurslari uch xil tarifni taqdim etadi. Har bir tarif o‘ziga xos qulayliklar va o‘quv dasturiga ega.",
     "bosh":"Boshlang‘ich",
     "tarif1":"Bepul",
