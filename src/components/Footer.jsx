@@ -9,7 +9,7 @@ const Footer = () => {
     <header className="bg-[#fff] py-5 relative">
       <div className="container">
         <div className="flex flex-wrap justify-between items-center">
-        <div className="">
+        <div className="mb-6">
             <a className="bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]" href="tel:+998785550109">78-555-01-09</a>
           </div>
           <nav>

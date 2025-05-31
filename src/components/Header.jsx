@@ -103,7 +103,7 @@ const Header = () => {
       </div>
       <nav
         ref={burgerRef}
-        className={`md:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${
+        className={`lg:hidden z-50 flex flex-col absolute  bg-gray-100 w-full sm:w-[400px] p-5 h-screen top-0 ${
           !open ? "-left-[100%]" : "left-0"
         }  duration-300`}
       >
