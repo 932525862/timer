@@ -18,7 +18,7 @@ const OurBenefits = () => {
             {t("kurs.button")}
             </button>
             <h5 className="text-[28px] sm:text-[40px] leading-10 font-[700] mb-[10px]">
-              <span className="text-[#386d63] text-[48px] nuqun ">elesson</span>  {t("kurs.title")}
+              <span className="text-[#386d63] text-[58px] nuqun ">elesson</span>  {t("kurs.title")}
             </h5>
             <p className="text-[16px] sm:text-[20px] text-gray-500">
             {t("kurs.title2")}

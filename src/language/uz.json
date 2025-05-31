@@ -1,88 +1,82 @@
 {
-   "navbar": {
-    "home": "Bosh sahifa",
-    "about": "Kurs haqida",
-    "contact": "Aloqa",
-    "news": " Afzalliklar",
-    "reception": "Tariflar",
-    "tyutorlar": "Tyutorlar",
-    "kurs":"Kursga kirish"
-  } ,
+  "navbar": {
+    "home": "Главная",
+    "about": "О курсе",
+    "contact": "Контакты",
+    "news": "Преимущества",
+    "reception": "Тарифы",
+    "tyutorlar": "Тьюторы",
+    "kurs": "Вход на курс"
+  },
   "about": {
-    "title": "Salom! Men elesson!",
-    "description": "Salom! Men — eLesson! Men shunchaki onlayn kurs emas, balki sening ishonchli hamkoringman. Dunyo tillarini tez, oson va qulay tarzda o‘rganishni zamonaviy metodlar va aqlli yechimlar orqali taklif qilaman.",
-    "viewOrders": "Kursga kirish",
-    "mijoz": "Mijozlar fikri",
-    "mijozDescription": "elesson kursi malakali tyutorlar va ekspertlar yordamida tilni tez, oson va qulay o‘rganish imkonini beradi. Bu kurs ishonchli hamkorlik, zamonaviy metodlar va samarali natijalarni ta’minlaydi.",
-    "rating": "Reyting",
-    "mijozlar": "Mijozlar",
-    "manun": "Mamnun mijozlar"
-
+    "title": "Привет! Я elesson!",
+    "description": "Адаптирован к требованиям времени",
+    "viewOrders": "Вход на курс",
+    "mijoz": "Отзывы клиентов",
+    "mijozDescription": "Курс elesson предоставляет возможность быстро, легко и удобно выучить язык с помощью квалифицированных тьюторов и экспертов. Этот курс гарантирует надежное сотрудничество, современные методы и эффективные результаты.",
+    "rating": "Рейтинг",
+    "mijozlar": "Клиенты",
+    "manun": "Довольные клиенты"
   },
-  "afza":{
-    "title": "bilan",
-    "description": "Malakali tyutorlar, virtual kursdoshlar, chet ellik ekspertlar bilan zerikarli darslarni unutishing, yangi imkoniyatlar olamiga eshik ochishing mumkin",
-    "afza1": "Vaqt va pulni tejash",
-    "afza11": "Vaqt va pulni tejash — samarali o‘qish usullari orqali keraksiz xarajatlar va ortiqcha vaqt sarfini kamaytirish imkoniyati.",
-    "afza2": "O‘zingga qulay vaqtda va joyda o‘rganish!",
-    "afza22": "O‘zingga qulay vaqtda va joyda o‘rganish — moslashuvchan, samarali va istalgan vaqtda bilim olish imkoniyati.",
-    "afza3": "Darslarni qayta ko’rish imkoni!",
-    "afza33": "Darslarni qayta ko‘rish imkoni — o‘rganilgan mavzularni takrorlash, tushunishni chuqurlashtirish va bilimlarni mustahkamlash uchun qulay imkoniyat.",
-    "afza4": "Individual yondashuv",
-    "afza44": "Individual yondashuv — har bir o‘quvchining ehtiyojlari va qobiliyatlariga moslashtirilgan ta’lim, samarali va natijaga yo‘naltirilgan."
-    
+  "afza": {
+    "title": "с elesson",
+    "description": "С квалифицированными тьюторами, виртуальными одногруппниками и иностранными экспертами вы забудете про скучные уроки и откроете двери в мир новых возможностей.",
+    "afza1": "Экономия времени и денег",
+    "afza11": "Экономия времени и денег — возможность сократить лишние расходы и потери времени за счёт эффективных методов обучения.",
+    "afza2": "Учись в удобное для тебя время и в любом месте!",
+    "afza22": "Учись в удобное для тебя время и в любом месте — гибкость, эффективность и возможность получать знания в любое время.",
+    "afza3": "Возможность пересматривать уроки!",
+    "afza33": "Возможность пересматривать уроки — удобная опция для повторения пройденных тем, углубления понимания и закрепления знаний.",
+    "afza4": "Индивидуальный подход",
+    "afza44": "Индивидуальный подход — обучение, адаптированное под потребности и способности каждого ученика, нацеленное на результат."
   },
-
-  "kurs":{
-    "button":"Bizning afzalliklarimiz",
-    "title":"bilan online kurslari orqali nimalarga ega bo'lasan",
-    "title2":"Endi sen ham ingliz tilida o‘z fikringni tushuntira olasan va suhbatdoshlaringni tushunishing mumkin.",
-    "comfo1":"Professional o‘qituvchilar",
-    "comfo11":"Shunchaki o‘rgatadigan emas, balki ilhomlantiradigan o‘qituvchilar jamoasi!",
-    "comfo2":"Xorijiy ekspertlar",
-    "comfo22":"Ekspertlar, dars jarayonini kuzatib, o'quvchilarni baholab boradi. Bu sifatli ta`lim kafolati! ",
-    "comfo3":"Zamonaviy platforma",
-    "comfo33":"Online imtixon, test, aktual elektron kitob va materiallardan foydalanish imkoniyati!",
-    "comfo4":"Oson O‘rganish",
-    "comfo44":"Qulay joy va vaqtni tanlashing, samaradorligingni oshiradi!"
+  "kurs": {
+    "button": "Наши преимущества",
+    "title": "Что ты получишь с онлайн-курсами от elesson",
+    "title2": "Теперь ты тоже сможешь выражать свои мысли на английском и понимать своих собеседников.",
+    "comfo1": "Профессиональные преподаватели",
+    "comfo11": "Команда не просто обучающих, а вдохновляющих преподавателей!",
+    "comfo2": "Иностранные эксперты",
+    "comfo22": "Эксперты наблюдают за процессом обучения и оценивают студентов. Это гарантия качественного образования!",
+    "comfo3": "Современная платформа",
+    "comfo33": "Возможность пользоваться онлайн-экзаменами, тестами, актуальными электронными книгами и материалами!",
+    "comfo4": "Легкое обучение",
+    "comfo44": "Выбор удобного места и времени повышает твою продуктивность!"
   },
-
-  "tarif":{
-    "titele":"Tariflari",
-    "title2":"Elelson kurslari uch xil tarifni taqdim etadi. Har bir tarif o‘ziga xos qulayliklar va o‘quv dasturiga ega.",
-    "bosh":"Boshlang‘ich",
-    "tarif1":"Bepul",
-    "um":"Shaxsiy foydalanish uchun ideal",
-    "tarif2":"3oy 599 000so‘m",
-    "tarif3":"6oy 599 000so‘m",
-    "tarif11":"700 ta foydali so‘z",
-    "tarif12":"O‘z haqingizda boshlang‘ich darajada gapira olish",
-    "tarif13":"Boshlang‘ich fonetika va grammatika ",
-    "tarif14":"Alifbo, to be, present/past zamonlar va boshqalar",
-    "tarif15":"Kundalik oddiy kichik suhbatlar",
-    "tarif22":"1200 ta so‘z",
-    "tarif21":"Kundalik suhbatlarni erkin olib borish",
-    "tarif23":"Asosiy grammatika (zamonaviy, modal fe’llar, bog‘lovchilar, shartli gaplar va boshqalar) ",
-    "tarif24":"Rasmiy xat va insho yozish qobiliyati",
-    "tarif25":"Bo‘sh vaqt, moliya, internet, ta’lim, ovqatlanish, kasblar, dunyo mavzularida muloqot",
-    "och":"Sinov darsi",
-    "sotib":"Xarid qilish"
+  "tarif": {
+    "titele": "Тарифы..",
+    "title2": "Курсы elesson предлагают три различных тарифа. Каждый тариф имеет свои особенности и учебную программу.",
+    "bosh": "Начальный",
+    "tarif1": "Бесплатно",
+    "um": "Идеально для личного пользования",
+    "tarif2": "3 месяца — 599 000 сум",
+    "tarif3": "6 месяцев — 599 000 сум",
+    "tarif11": "700 полезных слов",
+    "tarif12": "Умение рассказать о себе на начальном уровне",
+    "tarif13": "Начальная фонетика и грамматика",
+    "tarif14": "Алфавит, to be, времена present/past и другие",
+    "tarif15": "Простые повседневные диалоги",
+    "tarif22": "1200 слов",
+    "tarif21": "Свободное ведение повседневных разговоров",
+    "tarif23": "Основы грамматики (времена, модальные глаголы, союзы, условные предложения и др.)",
+    "tarif24": "Умение писать официальные письма и эссе",
+    "tarif25": "Общение на темы досуга, финансов, интернета, образования, питания, профессий и мира",
+    "och": "Пробный урок",
+    "sotib": "Купить"
   },
-  "contact":{
-    "titele":"Savolingiz bormi? Biz shu yerdamiz!",
-    "input1":"Ismingiz",
-    "input2":"Telefon raqamingiz",
-    "tarifb":"Bepul",
-    "tarif3oy":"3 oylik ",
-    "tarif6oy":"6 oylik ",
-    "input3":"Qo‘shimcha savollaringiz bo‘lsa, yozib qoldiring.",
-    "input4":"Tarifni tanlang",
-    "button":"Yuborish",
-    "button1":"Yuborilmoqda....",
-    "mes":"Xabar muvaffaqiyatli yuborildi",
-    "mes1":"Xatolik yuz berdi, qayta urinib ko‘ring",
-    "fotr44":"2025 ELesson – barcha huquqlar himoya qilingan."
-
-
+  "contact": {
+    "titele": "Есть вопрос? Мы рядом!",
+    "input1": "Ваше имя",
+    "input2": "Ваш номер телефона",
+    "tarifb": "Бесплатный",
+    "tarif3oy": "3 месяца",
+    "tarif6oy": "6 месяцев",
+    "input3": "Если у вас есть дополнительные вопросы, напишите здесь.",
+    "input4": "Выберите тариф",
+    "button": "Отправить",
+    "button1": "Отправляется...",
+    "mes": "Сообщение успешно отправлено",
+    "mes1": "Произошла ошибка, попробуйте еще раз",
+    "fotr44": "2025 ELesson – все права защищены."
   }
 }

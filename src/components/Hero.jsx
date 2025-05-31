@@ -16,9 +16,11 @@ const Hero = () => {
               <h1 className="text-[90px] sm:text-[120px] nuqun text-[#386d63]  max-w-[400px] sm:max-w-[500px]">
                 elesson
               </h1>
-              <p className="text-[#386d63] font-[600] lg:text-gray-500 text-[16px] sm:text-[20px] max-w-[600px] mt-[15px]">
-              {t("about.description")}
-              </p>
+              
+              <p className="text-[30px] sm:text-[60px] text-[#386d63] max-w-[400px] sm:max-w-[500px] leading-tight">
+                 {t("about.description")}
+                </p>
+
               <button className="bg-[#386d63] hover:bg-[#2d5c54] text-[#fff] py-4 px-6 cursor-pointer rounded-4xl font-[600] mt-[20px]">
                 <a href="https://elesson.exode.biz"> {t("about.viewOrders")}</a>
               </button>

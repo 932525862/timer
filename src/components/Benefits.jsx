@@ -14,7 +14,7 @@ const Benefits = () => {
           <h4 className="text-[28px] sm:text-[35px] font-[700]">
             {i18n.language === "uz" ? (
               <>
-                <span className="nuqun text-[30px] sm:text-[45px]">elesson</span> {t("afza.title")}
+                <span className="nuqun text-[50px] sm:text-[55px]">elesson</span> {t("afza.title")}
               </>
             ) : (
               <>
