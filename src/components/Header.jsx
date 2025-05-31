@@ -75,8 +75,8 @@ const Header = () => {
               style={{ width: 120 }}
               onChange={changeLanguage}
             >
-              <Option value="uz">🇺🇿 Uzbek</Option>
-              <Option value="ru">🇷🇺 Russian</Option>
+              <Option value="uz">Uzbek</Option>
+              <Option value="ru">Russian</Option>
             </Select>
               </li>
             </ul>
@@ -88,8 +88,8 @@ const Header = () => {
               style={{ width: 120 }}
               onChange={changeLanguage}
             >
-              <Option value="uz">🇺🇿 Uzbek</Option>
-              <Option value="ru">🇷🇺 Russian</Option>
+              <Option value="uz">Uzbek</Option>
+              <Option value="ru">Russian</Option>
             </Select>
             <div
             className="cursor-pointer text-[25px]  text-[#386d63]"
