@@ -19,7 +19,7 @@ const Price = () => {
             {t("tarif.titele")}
             </h4>
             <p className="text-[#fff] max-w-[400px] sm:max-w-[550px] mx-auto text-[16px] sm:text-[20px] mt-[15px]">
-            {t("tarif.title2")}
+           
             </p>
           </div>
         </div>
