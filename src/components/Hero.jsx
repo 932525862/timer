@@ -4,7 +4,7 @@ import { AntDesignOutlined, UserOutlined } from "@ant-design/icons";
 import { Avatar, Tooltip } from "antd";
 import { FaUser } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import heroImg from "../assets/heroof1.png";
+import heroImg from "../assets/heroof11.png";
 const Hero = () => {
     const { t } = useTranslation();
   return (
