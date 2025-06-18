@@ -7,9 +7,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import geografia from "../assets/geo.pdf";
+import geografia from "../assets/Orta Osiyo.pdf";
 import iqsdo from "../assets/iqsdo.pdf";
-import pedagokka from "../assets/Pedo.pdf";
+import pedagokka from "../assets/Iqtisodiy demografik .pdf";
 import jahon from "../assets/jahon.pdf";
 
 const Price = () => {
@@ -21,7 +21,7 @@ const Price = () => {
       file: iqsdo,
     },
     {
-      title: "Pedagogika ",
+      title: "Iqtisodiy demografik 2",
       file: pedagokka,
     },
     {
@@ -29,7 +29,7 @@ const Price = () => {
       file: jahon,
     },
     {
-      title:"Andijon geografiyasi",
+      title:"Oʻrta Osiyo",
       file: geografia,
     },
   ];
